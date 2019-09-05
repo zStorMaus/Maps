@@ -103,5 +103,16 @@
 		{"id": "global", "type": "cuboid", "min": "-oo, -oo, -oo", "max": "oo, oo, oo"},
 		{"id": "blue-spawn-protection", "type": "cuboid", "min": "28, 9, 15", "max": "38, 24, 5"},
 		{"id": "red-spawn-protection", "type": "cuboid", "min": "-62, 9, -15", "max": "-72, 24, -5"}
-	]
+	],
+	"killstreaks": [
+        	{
+            		"count": 1,
+            		"repeat": true,
+            		"actions": {
+                		"items": [
+                    			{"material": "golden apple", "amount": 1}
+                		]
+           		}
+        	}
+    	]
 }
