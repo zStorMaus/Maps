@@ -124,5 +124,16 @@
 	"regions": [
 		{"id": "blue-spawn-protection", "type": "cuboid", "min": "-3, 0, 96", "max": "-14, oo, 85"},
 		{"id": "red-spawn-protection", "type": "cuboid", "min": "-61, 0, -80", "max": "-71, oo, -90"}
-	]
+	],
+	"killstreaks": [
+        	{
+           		"count": 1,
+            		"repeat": true,
+            		"actions": {
+                		"items": [
+                    			{"material": "golden apple", "amount": 1}
+                		]
+            		}
+        	}
+    	]
 }
